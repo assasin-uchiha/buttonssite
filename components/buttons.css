@@ -1,0 +1,130 @@
+.buttons-container > button, a, input[type='submit']{
+    @apply mt-3 md:mt-0;
+   }
+
+.btn{
+   @apply text-white inline-block cursor-pointer border-0 px-5 py-2;
+}
+.btn-primary{
+   @apply bg-blue-500 rounded;
+}
+.btn-dark{
+   @apply bg-black rounded;
+}
+.btn-warning{
+   @apply bg-orange-500 rounded;
+}
+.btn-success{
+   @apply bg-green-500 rounded;
+}
+.btn-danger{
+   @apply bg-red-500 rounded;
+}
+.btn-purple{
+   @apply bg-purple-500 rounded;
+}
+.btn-indigo{
+   @apply bg-indigo-500 rounded;
+}
+/* ring buttons*/
+.primary-ring{
+   @apply focus:ring-4 ring-offset-2 transition-all ring-blue-500/40;
+}
+.dark-ring{
+   @apply focus:ring-4 ring-offset-2 ring-black/40;
+}
+.warning-ring{
+   @apply focus:ring-4 ring-offset-2 ring-orange-500/50;
+}
+.success-ring{
+   @apply focus:ring-4 ring-offset-2 ring-green-500/40;
+}
+.danger-ring{
+   @apply focus:ring-4 ring-offset-2 ring-red-500/40;
+}
+.purple-ring{
+   @apply focus:ring-4 ring-offset-2 ring-purple-500/50;
+}
+.indigo-ring{
+   @apply focus:ring-4 ring-offset-2 ring-indigo-500/40;
+}
+.outline-primary{
+   @apply border-black border-[3px] text-black rounded text-base;
+}
+.material{
+   @apply shadow-sm shadow-black/50 uppercase relative before:absolute before:w-full before:h-full before:inset-0 before:bg-white/20 before:scale-0 hover:before:scale-100 before:transition-all before:rounded-full hover:before:rounded-none;
+}
+/* OUTLINE BUTTONS*/
+.outline-primary{
+   @apply bg-transparent border-[1.5px] border-blue-500 text-blue-500;
+}
+.outline-dark{
+   @apply bg-transparent border-[1.5px] border-black text-black;
+}
+.outline-warning{
+   @apply bg-transparent border-[1.5px] border-orange-500 text-orange-500;
+}
+.outline-success{
+   @apply bg-transparent border-[1.5px] border-green-500 text-green-500;
+}
+.outline-danger{
+   @apply bg-transparent border-[1.5px] border-red-500 text-red-500;
+}
+.outline-purple{
+   @apply bg-transparent border-[1.5px] border-purple-500 text-purple-500;
+}
+.outline-indigo{
+   @apply bg-transparent border-[1.5px] border-indigo-500 text-indigo-500;
+}
+/* smart-buttons*/
+.smart-primary{
+   @apply bg-blue-100 text-blue-700;
+}
+.smart-dark{
+   @apply bg-gray-100 text-gray-700;
+}
+.smart-warning{
+   @apply bg-orange-100 text-orange-700;
+}
+.smart-success{
+   @apply bg-green-100 text-green-700;
+}
+.smart-danger{
+   @apply bg-red-100 text-red-700;
+}
+.smart-purple{
+   @apply bg-purple-100 text-purple-700;
+}
+.smart-indigo{
+   @apply bg-indigo-100 text-indigo-700;
+}
+/* gradient-buttons */
+.gradient-primary{
+   @apply bg-gradient-to-r from-blue-500  to-blue-100;
+}
+.gradient-dark{
+   @apply  bg-gradient-to-r from-black to-gray-100;
+}
+.gradient-warning{
+   @apply bg-gradient-to-r from-orange-500 to-orange-100;
+}
+.gradient-success{
+   @apply bg-gradient-to-r from-green-500 to-green-100;
+}
+.gradient-danger{
+   @apply bg-gradient-to-r from-red-500 to-red-100;
+}
+.gradient-purple{
+   @apply bg-gradient-to-r from-purple-500 to-purple-100;
+}
+.gradient-indigo{
+   @apply bg-gradient-to-r from-indigo-500 to-indigo-100;
+}
+/* spinner-loading buttons*/
+.spinner{
+   @apply block w-6 h-6 border-[3px] rounded-full border-r-black/10 border-t-black/10 animate-spin;
+}
+/* btn-block */
+.btn-block{
+   @apply block w-full text-base py-3;
+}
